@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Meoli_meoliintech"
+version = "0.0.1"
+authors = [
+  { name="meoliintech", email="shadcodes@gmail.com" },
+]
+description = "Finding the value of K in a KNN model"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "'https://github.com/shadmeoli/finding_k.git'"
+"Bug Tracker" = "'https://github.com/shadmeoli/finding_k/issues"

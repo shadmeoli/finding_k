@@ -1,14 +1,14 @@
 from setuptools import setup
 
 setup(
-    name='MyLibrary',
+    name='Meoli',
     version='0.0.1',    
     description='Getting the value of K in a KNN model',
     url='https://github.com/shadmeoli/finding_k.git',
     author='intech',
     author_email='shadcodes@gmail.com',
     license='MIT',
-    packages=['MyLibrary'],
+    packages=['Meoli']
     install_requires=['mpi4py>=2.0',
                       'rich'                    
                       ],
